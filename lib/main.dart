@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'drawer_screen.dart';
 import 'layout_tutorial.dart';
 import 'snack_bar_1.dart';
+import 'orientation_list.dart';
 
 void main() => runApp(MyApp());
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       //home: LayoutTutorial(),
-      home: SnackBar1(),
+      home: OrientationList(),
     );
   }
 }
