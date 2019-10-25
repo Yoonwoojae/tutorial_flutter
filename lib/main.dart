@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'drawer_screen.dart';
 import 'layout_tutorial.dart';
+import 'snack_bar_1.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       //home: LayoutTutorial(),
-      home: DrawerScreen(),
+      home: SnackBar1(),
     );
   }
 }
