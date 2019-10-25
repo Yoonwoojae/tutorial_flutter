@@ -5,6 +5,7 @@ import 'layout_tutorial.dart';
 import 'snack_bar_1.dart';
 import 'orientation_list.dart';
 import 'tab_controller.dart';
+import 'animated_opacity.dart';
 
 void main() => runApp(MyApp());
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       //home: LayoutTutorial(),
-      home: TabController1(),
+      home: AnimatedOpacity1(),
     );
   }
 }
